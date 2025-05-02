@@ -26,7 +26,7 @@ const Navbar = () => {
           <Link to="/chatbot" className="hidden md:block text-foreground hover:text-beba-green transition-colors">
             <div className="flex items-center gap-1">
               <MessageSquare size={16} />
-              <span>zvcN3extgen</span>
+              <span>zvcBebaPay AI</span>
             </div>
           </Link>
           <Button className="flex items-center gap-2 bg-beba-green hover:bg-beba-dark-green text-white">
