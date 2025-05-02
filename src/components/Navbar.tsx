@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Recycle, Wallet } from 'lucide-react';
+import { Recycle, Wallet, MessageSquare } from 'lucide-react';
 
 const Navbar = () => {
   return (
@@ -22,6 +22,12 @@ const Navbar = () => {
           </Link>
           <Link to="/dashboard" className="hidden md:block text-foreground hover:text-beba-green transition-colors">
             Dashboard
+          </Link>
+          <Link to="/chatbot" className="hidden md:block text-foreground hover:text-beba-green transition-colors">
+            <div className="flex items-center gap-1">
+              <MessageSquare size={16} />
+              <span>zvcN3extgen</span>
+            </div>
           </Link>
           <Button className="flex items-center gap-2 bg-beba-green hover:bg-beba-dark-green text-white">
             <Wallet size={18} />
