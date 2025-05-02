@@ -85,7 +85,7 @@ const Chatbot = () => {
     } else if (lowerQuestion.includes('m-pesa') || lowerQuestion.includes('mpesa')) {
       return 'BebaPay integrates seamlessly with M-Pesa, Kenya\'s popular mobile payment system. You can convert your BebaPay tokens to M-Pesa cash through our app. The conversion is processed quickly and the funds are sent directly to your registered M-Pesa account.';
     } else if (lowerQuestion.includes('location') || lowerQuestion.includes('center') || lowerQuestion.includes('where')) {
-      return 'BebaPay recycling centers are located across Nairobi. You can find the nearest location by visiting the Dashboard section of our app or website. We're constantly expanding our network to make recycling more accessible to all Nairobi residents.';
+      return "BebaPay recycling centers are located across Nairobi. You can find the nearest location by visiting the Dashboard section of our app or website. We're constantly expanding our network to make recycling more accessible to all Nairobi residents.";
     } else if (lowerQuestion.includes('how it works') || lowerQuestion.includes('process')) {
       return 'BebaPay works in 4 simple steps: 1) Scan & Deposit - bring plastic bottles to our recycling centers and scan them, 2) Verify & Weigh - our smart bins verify the materials, 3) Earn BebaPay Tokens - tokens are automatically sent to your wallet, 4) Redeem Tokens - exchange for various rewards including airtime and M-Pesa cash.';
     } else if (lowerQuestion.includes('blockchain') || lowerQuestion.includes('web3')) {
